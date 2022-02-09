@@ -1,6 +1,5 @@
 button{
     border: none;
-
 }
 
 body{
@@ -12,8 +11,7 @@ body{
 ul{
     list-style: none;
     padding: 0px;
-    margin: 0px;
-    
+    margin: 0px;  
 }
 
 
@@ -21,8 +19,7 @@ ul{
     background-color:#0a192d;
     display: flex;
     justify-content: space-around;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .logo{
@@ -66,6 +63,15 @@ ul{
     display: flex;
     justify-content: space-around;
     background-color: #b58f5a;
-    padding: 10px;
+    padding: margin 5px;
+}
 
+.button-navbar{
+    background-color: #b58f5a;
+    padding: 10px;
+}
+
+.button-navbar:hover{
+    background-color: #a87f46;
+    cursor: pointer;
 }

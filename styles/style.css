@@ -14,14 +14,18 @@ ul{
 }
 
 .navbar{
-    background-color:aqua;
+    background-color:black;
     display: flex;
     justify-content: space-between;
     padding: 10px;
     
 }
 
+.logo{
+    height: 150px;
+}
+
 .text{
     font-weight: bolder;
-    color: black;
+    color:beige
 }

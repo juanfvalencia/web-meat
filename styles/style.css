@@ -5,17 +5,19 @@ button{
 
 body{
     padding: 0px;
+    border: none;
     margin: 0px;
 }
 
 ul{
     list-style: none;
     padding: 0px;
+    margin: 0px;
     
 }
 
 
-.navbar{
+.primary-navbar{
     background-color:#0a192d;
     display: flex;
     justify-content: space-around;
@@ -35,17 +37,22 @@ ul{
 .inputSearch{
     justify-content: center;
     border: none;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    margin-top: 60px;
+    padding: 10px;
+    width: 300px;
+}
+
+.inputSearch:hover{
+    border: solid grey 1px;
+    background-color: beige;
 }
 
 .buttonLogin{
     background-color: #0a192d;
     padding: 10px 15px;
-    margin: 5px;
+   margin-top: 60px;
     border: none;
+    color: beige;
     font-weight: bolder;
 }
 
@@ -53,4 +60,12 @@ ul{
     transform: scale(1.1);
     background-color: #b1c4b949;
     cursor: pointer;
+}
+
+.secondary-navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b58f5a;
+    padding: 10px;
+
 }

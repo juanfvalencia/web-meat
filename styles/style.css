@@ -13,10 +13,11 @@ ul{
     
 }
 
+
 .navbar{
-    background-color:black;
+    background-color:#0a192d;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px;
     
 }
@@ -28,4 +29,13 @@ ul{
 .text{
     font-weight: bolder;
     color:beige
+}
+
+.inputSearch{
+    justify-content: center;
+    border: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }

@@ -3,6 +3,7 @@ button{
 }
 
 body{
+    background-color: #b4b0aa4b;
     padding: 0px;
     border: none;
     margin: 0px;
@@ -34,16 +35,25 @@ ul{
 }
 
 .inputSearch{
-    justify-content: center;
-    border: none;
+    background-color: white;
+    border: 1px solid gray;
     margin-top: 60px;
-    padding: 10px;
+    padding: 8px;
+   
+}
+
+.inputSearch > input{
+    outline: none;
+    border: 0px;
     width: 300px;
 }
 
-.inputSearch:hover{
-    border: solid grey 1px;
-    background-color: beige;
+.inputSearch:focus-within{
+    border: solid grey 2px;
+}
+
+i{
+ color: #0a192d
 }
 
 .buttonLogin{

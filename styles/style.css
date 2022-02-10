@@ -15,6 +15,9 @@ ul{
     margin: 0px;  
 }
 
+i{
+ color: #0a192d
+}
 
 .primary-navbar{
     background-color:#0a192d;
@@ -52,14 +55,15 @@ ul{
     border: solid grey 2px;
 }
 
-i{
- color: #0a192d
+.containerLogin{
+    display: grid;
+    margin-top: 50px
 }
 
 .buttonLogin{
     background-color: #0a192d;
     padding: 10px 15px;
-    margin-top: 60px;
+    margin-top: 10px;
     border: none;
     color: beige;
 }

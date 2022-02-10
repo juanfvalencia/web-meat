@@ -1,0 +1,92 @@
+button{
+    border: none;
+}
+
+body{
+    background-color: #b4b0aa4b;
+    padding: 0px;
+    border: none;
+    margin: 0px;
+}
+
+ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;  
+}
+
+i{
+ color: #0a192d
+}
+
+.primary-navbar{
+    background-color:#0a192d;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;   
+}
+
+.logo{
+    height: 150px;
+}
+
+.text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    color:beige
+}
+
+.inputSearch{
+    background-color: white;
+    border: 1px solid gray;
+    margin-top: 60px;
+    padding: 8px;
+   
+}
+
+.inputSearch > input{
+    outline: none;
+    border: 0px;
+    width: 300px;
+}
+
+.inputSearch:focus-within{
+    border: solid grey 2px;
+}
+
+.containerLogin{
+    display: grid;
+    margin-top: 50px
+}
+
+.buttonLogin{
+    background-color: #0a192d;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border: none;
+    color: beige;
+}
+
+.buttonLogin:hover{
+    transform: scale(1.1);
+    background-color: #b1c4b949;
+    cursor: pointer;
+}
+
+.secondary-navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: #b58f5a;
+    padding: margin 5px;
+}
+
+.button-navbar{
+    background-color: #b58f5a;
+    padding: 10px;
+}
+
+.button-navbar:hover{
+    background-color: #a87f46;
+    cursor: pointer;
+}

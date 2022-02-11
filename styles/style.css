@@ -110,3 +110,28 @@ i{
 .buttonOfertas:hover{
     color: white;
 }
+
+.text-title{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container-forshop{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.container-imagen{
+    width: 150x;
+    height: 150px;
+    display: flex;
+}
+
+.container-imagen > img{
+    object-fit: cover;
+    width: 100%;
+}

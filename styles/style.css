@@ -20,7 +20,7 @@ i{
 }
 
 .primary-navbar{
-    background-color:#0a192d;
+    background-color:#162231;
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -39,7 +39,7 @@ i{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 15px;
-    color:beige
+    color:white
 }
 
 .inputSearch{
@@ -109,4 +109,50 @@ i{
 
 .buttonOfertas:hover{
     color: white;
+}
+
+.text-title{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container-forshop{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+
+.container-imagen{
+    height: 150px;
+    width: 150x;
+    border-radius: 100%;
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.container-imagen > img{
+    object-fit: cover;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.container-imagen:hover{
+    transform: scale(1.03);
+    transition: 2s;
+}
+
+.text-forshop{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: small;
+    font-weight: 600;
+}
+
+.text-forshop:hover{
+    color: #b58f5a;
+    cursor: pointer;
+    
 }

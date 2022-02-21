@@ -53,43 +53,12 @@ function App() {
         <section className="primary-container-forshop">
           <h3 className="text-title">COMPRAR POR</h3>
           <ul className="container-forshop">
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img src={Res} alt="Carne de Res"/>
-              </div>
-              <span>RES</span>
-            </li>
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img src={Pescado} alt="Pescado"/>
-              </div>
-              <span>PESCADO</span>
-            </li>
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img src={Mariscos} alt="Mariscos"/>
-              </div>
-              <span>MARISCOS</span>
-            </li>
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img
-                  src={Cerdo} alt="Carne de Cerdo"/>
-              </div>
-              <span>CERDO</span>
-            </li>
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img src={Pollo} alt="Pollo"/>
-              </div>
-              <span>AVES</span>
-            </li>
-            <li className="text-forshop">
-              <div className="container-imagen">
-                <img src={Despensa} alt="Despensa"/>
-              </div>
-              <span>DESPENSA</span>
-            </li>
+            <CardProducts img={Res} nombreProducto='RES'/>
+            <CardProducts img={Pescado} nombreProducto='PESCADO'/>
+            <CardProducts img={Cerdo} nombreProducto='CERDO'/>
+            <CardProducts img={Mariscos} nombreProducto='MARISCOS'/>
+            <CardProducts img={Pollo} nombreProducto='POLLO'/>
+            <CardProducts img={Despensa} nombreProducto='DESPENSA'/>
           </ul>
         </section>
         <section></section>
@@ -99,4 +68,15 @@ function App() {
   );
 }
 
+function CardProducts( {img, nombreProducto} ){
+
+  return(
+      <li className="text-forshop">
+        <div className="container-imagen">
+          <img src={img} alt={nombreProducto}/>
+        </div>
+        <span>{nombreProducto}</span>
+      </li>
+  )
+}
 export default App;

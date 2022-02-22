@@ -124,14 +124,13 @@ color: #0a192d
 
 .container-forshop{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-right: 35px;
   margin-left: 35px;
 }
 
 .container-imagen{
-  height: 150px;
-  width: 80%;
+  height: 190px;
   border-radius: 100%;
   display: flex; 
   padding-bottom: 8px;
@@ -141,7 +140,7 @@ color: #0a192d
   object-fit: cover;
   border-radius: 100%;
   width: 80%;
-  height: 100%;
+  padding-left: 10px;
 }
 
 .container-imagen:hover{

@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom"
 
-
-const CardProducts = ( {img, nombreProducto} ) => {
+const CardProducts = ( {ruta, img, nombreProducto} ) => {
 
     return (
       <div>
         <li className="text-forshop">
-          <div className="container-imagen">
-            <img src={img} alt={nombreProducto} />
-          </div>
+          <Link to={ruta}>
+            <div className="container-imagen">
+              <img src={img} alt={nombreProducto} />
+            </div>
+          </Link>
           <span>{nombreProducto}</span>
         </li>
       </div>
@@ -15,4 +17,4 @@ const CardProducts = ( {img, nombreProducto} ) => {
 
 }
 
-export default CardProducts
+export default CardProducts;

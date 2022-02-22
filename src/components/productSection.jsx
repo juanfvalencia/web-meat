@@ -14,12 +14,12 @@ const ProductSection = () => {
         <section className="primary-container-forshop">
           <h3 className="text-title">COMPRAR POR</h3>
           <ul className="container-forshop">
-            <CardProducts img={Res} nombreProducto='RES'/>
-            <CardProducts img={Pescado} nombreProducto='PESCADO'/>
-            <CardProducts img={Cerdo} nombreProducto='CERDO'/>
-            <CardProducts img={Mariscos} nombreProducto='MARISCOS'/>
-            <CardProducts img={Pollo} nombreProducto='POLLO'/>
-            <CardProducts img={Despensa} nombreProducto='DESPENSA'/>
+            <CardProducts ruta='/res' img={Res} nombreProducto='RES'/>
+            <CardProducts ruta='/pescado' img={Pescado} nombreProducto='PESCADO'/>
+            <CardProducts ruta='/cerdo' img={Cerdo} nombreProducto='CERDO'/>
+            <CardProducts ruta='/mariscos' img={Mariscos} nombreProducto='MARISCOS'/>
+            <CardProducts ruta='/pollo' img={Pollo} nombreProducto='POLLO'/>
+            <CardProducts ruta='/despensa' img={Despensa} nombreProducto='DESPENSA'/>
           </ul>
         </section>
     )

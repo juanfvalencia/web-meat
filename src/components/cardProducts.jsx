@@ -6,7 +6,7 @@ const CardProducts = ( {ruta, img, nombreProducto} ) => {
       <div>
         <li className="text-forshop">
           <Link to={ruta}>
-            <div className="container-imagen">
+            <div className="containerImg">
               <img src={img} alt={nombreProducto} />
             </div>
           </Link>

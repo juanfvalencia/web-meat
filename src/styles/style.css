@@ -18,10 +18,11 @@ ul{
 .mainContainer{
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 .mainContainer > main{
-  height: 100vh;
+  height: 100%;
 }
 
 .mainContainer > Footer{
@@ -136,25 +137,25 @@ ul{
 .container-forshop{
   display: flex;
   justify-content: space-between;
-  margin-right: 35px;
+  margin-right: 20px;
   margin-left: 35px;
 }
 
-.container-imagen{
-  height: 190px;
-  border-radius: 100%;
-  display: flex; 
+.containerImg{
+  height: 220px;
+  display: flex;
   padding-bottom: 8px;
+
 }
 
-.container-imagen > img{
+.containerImg > img{
   object-fit: cover;
   border-radius: 100%;
-  width: 80%;
-  padding-left: 10px;
+  width: 90%;
+
 }
 
-.container-imagen:hover{
+.containerImg:hover{
   transform: scale(1.03);
   transition: 2s;
 }

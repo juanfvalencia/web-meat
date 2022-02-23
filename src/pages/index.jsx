@@ -1,11 +1,12 @@
 import Header from "../components/header";
 import Navbar from "../components/navbar";
+import Footer from "../components/footer";
 import ProductSection from "../components/productSection";
 
 const Index = () =>{
 
     return(
-        <div>
+        <div className="mainContainer">
             <Header/>
             <Navbar/>
             <main>
@@ -13,9 +14,8 @@ const Index = () =>{
                 <ProductSection/>
                 <section></section>
                 </main>
-            <footer></footer>
+            <footer><Footer/></footer>    
         </div>
     )
 }
-
 export default Index;

@@ -15,8 +15,19 @@ ul{
   margin: 0px;  
 }
 
-i{
-color: #0a192d
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.mainContainer > main{
+  height: 100vh;
+}
+
+.mainContainer > Footer{
+  background-color: rgb(200, 198, 206);
+  padding: 10px;
+  text-align: center;
 }
 
 .primary-navbar{
